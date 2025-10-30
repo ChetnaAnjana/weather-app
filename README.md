@@ -1,16 +1,22 @@
-# React + Vite
+Features:
+The app includes a search bar for entering a city name.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+When a valid city name is entered and searched, the app will display:
 
-Currently, two official plugins are available:
+Weather condition image
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Temperature
 
-## React Compiler
+City name
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Humidity
 
-## Expanding the ESLint configuration
+Wind speed
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If the user clicks the search icon without entering a city name, an alert will appear saying:
+
+“Enter city name”
+
+If the user enters an invalid or unrecognized city name, an alert will appear saying:
+
+“Incorrect city name”
